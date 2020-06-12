@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import SeasonDispalay from './SeasonDisplay'
+import Spinner from './Spinner'
 
 // Functional Component:
 // const App = () => {
@@ -35,7 +36,7 @@ class App extends React.Component {
     return <SeasonDispalay lat={this.state.lat}/>
     }
 
-    return <div>Loading!</div>
+    return <Spinner message="Please accept location request"/>;
   }
 }
 
