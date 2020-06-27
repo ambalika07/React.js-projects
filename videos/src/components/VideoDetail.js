@@ -13,7 +13,7 @@ return (
             <iframe title = "video player" src={videoSrc} />
         </div>
         <div className="ui segment">
-            <h4 classname="ui header" >{props.video.snippet.title} </h4>
+            <h4 className="ui header" >{props.video.snippet.title} </h4>
             <p>{props.video.snippet.description}</p>
         </div>
     </div>
